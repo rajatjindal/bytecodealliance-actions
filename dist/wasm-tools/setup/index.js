@@ -16984,6 +16984,8 @@ function getArch() {
             return 'aarch64';
         case 'x64':
             return 'x86_64';
+        case 'riscv64':
+            return 'riscv64gc';
         default:
             throw new Error(`Unsupported operating system architecture: ${arch}`);
     }
